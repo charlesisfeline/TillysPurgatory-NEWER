@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="cricket.png"><SubTexture name="cricket idle0000" x="0" y="0" width="362" height="147" frameX="0" frameY="0" frameWidth="362" frameHeight="147" />
+<SubTexture name="cricket idle0001" x="362" y="0" width="362" height="237" frameX="0" frameY="0" frameWidth="362" frameHeight="237" />
+<SubTexture name="cricket idle0002" x="724" y="0" width="374" height="368" frameX="0" frameY="0" frameWidth="374" frameHeight="368" />
+<SubTexture name="cricket idle0003" x="1098" y="0" width="362" height="541" frameX="0" frameY="0" frameWidth="362" frameHeight="541" />
+<SubTexture name="cricket left0000" x="0" y="541" width="410" height="380" frameX="0" frameY="0" frameWidth="410" frameHeight="380" />
+<SubTexture name="cricket left0001" x="410" y="541" width="422" height="387" frameX="0" frameY="0" frameWidth="422" frameHeight="387" />
+<SubTexture name="cricket left0002" x="832" y="541" width="401" height="419" frameX="0" frameY="0" frameWidth="401" frameHeight="419" />
+<SubTexture name="cricket right0000" x="1233" y="541" width="401" height="419" frameX="0" frameY="0" frameWidth="401" frameHeight="419" />
+<SubTexture name="cricket right0001" x="0" y="960" width="422" height="387" frameX="0" frameY="0" frameWidth="422" frameHeight="387" />
+<SubTexture name="cricket up0000" x="422" y="960" width="362" height="541" frameX="0" frameY="0" frameWidth="362" frameHeight="541" />
+<SubTexture name="cricket up0001" x="784" y="960" width="362" height="147" frameX="0" frameY="0" frameWidth="362" frameHeight="147" />
+<SubTexture name="cricket up0002" x="1146" y="960" width="362" height="237" frameX="0" frameY="0" frameWidth="362" frameHeight="237" />
+<SubTexture name="cricket down0000" x="0" y="1501" width="362" height="541" frameX="0" frameY="0" frameWidth="362" frameHeight="541" />
+<SubTexture name="cricket down0001" x="362" y="1501" width="362" height="147" frameX="0" frameY="0" frameWidth="362" frameHeight="147" />
+<SubTexture name="cricket down0002" x="724" y="1501" width="362" height="237" frameX="0" frameY="0" frameWidth="362" frameHeight="237" />
+<SubTexture name="cricket hey0000" x="1086" y="1501" width="471" height="483" frameX="0" frameY="0" frameWidth="471" frameHeight="483" />
+<SubTexture name="cricket hey0001" x="0" y="2042" width="327" height="395" frameX="0" frameY="0" frameWidth="327" frameHeight="395" />
+<SubTexture name="cricket hey0002" x="327" y="2042" width="713" height="475" frameX="0" frameY="0" frameWidth="713" frameHeight="475" />
+<SubTexture name="cricket hey0003" x="1040" y="2042" width="329" height="395" frameX="0" frameY="0" frameWidth="329" frameHeight="395" />
+<SubTexture name="cricket hey0004" x="1369" y="2042" width="327" height="395" frameX="0" frameY="0" frameWidth="327" frameHeight="395" />
+</TextureAtlas>
