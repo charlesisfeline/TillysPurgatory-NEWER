@@ -1040,8 +1040,52 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
+			var credits:String;
+		switch (SONG.song.toLowerCase())
+		{
+			case 'Till-fairness'|'Tillbound'|'Till-position'|'Till-archy'|'Godelly':
+				credits = "Ghost tapping is forced off! Screw you!";
+			case 'Tillbreaker':
+				credits = "Frick you! You're done you CHEATER!";
+			case 'Corruption':
+				credits = "BINGO BANGO!";
+			case 'Royale':
+				credits = "Original Song made by CharlesCat";
+			case 'Till-Purgation'|'Theating':
+				credits = 'Screw you!';
+			case 'Till-tuagint':
+				credits = 'IM IN PAIN RIGHT NOW! JUST BEAT ME AND SAVE ME FROM MY MISERY!';
+			default:
+				credits = '';
+		}
+		var creditsText:Bool = credits != '';
+		var textYPos:Float = healthBarBG.y + 50;
+		if (creditsText)
+		{
+			textYPos = healthBarBG.y + 30;
+		}
+		// totally didnt took this from KE (sorry)
+		var songWatermark = new FlxText(4, textYPos, 0,
+		SONG.song
+		+ " "
+		+ CoolUtil.difficultyString()
+		+ " - BETA 4.5", 16);
+		//+ " ", 16);
+		songWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		songWatermark.scrollFactor.set();
+		add(songWatermark);
+		if (creditsText)
+		{
+			var creditsWatermark = new FlxText(4, healthBarBG.y + 50, 0, credits, 16);
+			creditsWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			creditsWatermark.scrollFactor.set();
+			add(creditsWatermark);
+			creditsWatermark.cameras = [camHUD];
+		}
+
+	
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
-		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.RED, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
 		botplayTxt.visible = cpuControlled;
