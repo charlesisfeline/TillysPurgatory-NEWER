@@ -1043,17 +1043,17 @@ class PlayState extends MusicBeatState
 			var credits:String;
 		switch (SONG.song.toLowerCase())
 		{
-			case 'Till-fairness'|'Tillbound'|'Till-position'|'Till-archy'|'Godelly':
+			case 'till-fairness'|'tillbound'|'till-position'|'till-archy'|'godelly':
 				credits = "Ghost tapping is forced off! Screw you!";
-			case 'Tillbreaker':
+			case 'tillbreaker':
 				credits = "Frick you! You're done you CHEATER!";
-			case 'Corruption':
+			case 'corruption':
 				credits = "BINGO BANGO!";
-			case 'Royale':
+			case 'royale':
 				credits = "Original Song made by CharlesCat";
-			case 'Till-Purgation'|'Theating':
+			case 'till-Purgation'|'theating':
 				credits = 'Screw you!';
-			case 'Till-tuagint':
+			case 'till-tuagint':
 				credits = 'IM IN PAIN RIGHT NOW! JUST BEAT ME AND SAVE ME FROM MY MISERY!';
 			default:
 				credits = '';
