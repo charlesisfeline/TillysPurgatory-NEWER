@@ -13,7 +13,6 @@ import flixel.FlxG;
 import flixel.FlxGame;
 import flixel.FlxObject;
 import flixel.FlxSprite;
-import flixel.FlxState;
 import flixel.FlxSubState;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.addons.effects.FlxTrail;
@@ -1051,7 +1050,7 @@ class PlayState extends MusicBeatState
 				credits = "BINGO BANGO!";
 			case 'royale':
 				credits = "Original Song made by CharlesCat";
-			case 'till-Purgation'|'theating':
+			case 'till-purgation'|'theating':
 				credits = 'Screw you!';
 			case 'till-tuagint':
 				credits = 'IM IN PAIN RIGHT NOW! JUST BEAT ME AND SAVE ME FROM MY MISERY!';
