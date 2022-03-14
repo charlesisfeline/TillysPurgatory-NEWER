@@ -3,6 +3,7 @@ function onCreate()
 	makeLuaSprite('rebound', 'rebound', -600, -300);
 	setScrollFactor('rebound', 0, 0);
 	addLuaSprite('rebound', false);
+	addGlitchEffect('rebound',2,2)
 	
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
