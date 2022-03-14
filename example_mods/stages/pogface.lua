@@ -3,6 +3,7 @@ function onCreate()
 	makeLuaSprite('pogface', 'pogface', -600, -300);
 	setScrollFactor('pogface', 0, 0);
 	addLuaSprite('pogface', false);
+	addGlitchEffect('pogface',2,2)
 	
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
