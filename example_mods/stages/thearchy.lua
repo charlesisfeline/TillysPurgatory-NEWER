@@ -3,6 +3,7 @@ function onCreate()
 	makeLuaSprite('thearchy', 'thearchy', -600, -300);
 	setScrollFactor('thearchy', 0, 0);
 	addLuaSprite('thearchy', false);
+	addGlitchEffect('thearchy',2,2)
 	
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
